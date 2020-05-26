@@ -4,7 +4,7 @@ import React from "react"
 //import "../styles/styles.scss"
 
 import BottomNavbar from "../components/bottomnavbar"
-import { Link, graphql } from 'gatsby';
+import {graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 const ProjectsPage = props => (
@@ -15,7 +15,7 @@ const ProjectsPage = props => (
         <p className="bigtext leftalign">Cow Kingdom</p>
         <hr></hr>
         <div className="project-flexcontainer">
-          <div className="slightlylargertext project-flexitem">
+          <div className="project-flexitemtext project-flexitem">
             &emsp; Cow Kingdom is a project I gave myself in order to learn Unity development from start to finish. 
             In my past Unity work, I would focus on the mechanics and the gameplay of whatever project I was working on, but that led to a serious imbalance in my knowledge of Unity.
             I realized that I knew very little about Unity's UI tools, saving and loading, and how different mechanics of a game end up fitting together.
@@ -30,7 +30,7 @@ const ProjectsPage = props => (
           <div className="project-flexitem imgborder">
             <Img fluid={props.data.cowKingdomTwo.childImageSharp.fluid} />
           </div>
-          <div className="slightlylargertext project-flexitem">
+          <div className="project-flexitemtext project-flexitem">
             &emsp; I consider this project a success, though I have not (yet) released it on the Google Play Store. I accomplished my goal of learning about aspects of Unity development I was not yet familiar with.
             Specifically, I learned how to use Unity's UI tools and how to save and load using JSON, but I think the most important thing I learned was how to use ScriptableObjects.
             <br/><br/>
@@ -38,7 +38,7 @@ const ProjectsPage = props => (
             &emsp;ScriptableObjects were the missing piece of the puzzle for me when it came to Unity. The ability to have game data shared between multiple gameobjects without relying on singletons or managers (for the most part) is incredibly powerful. 
             In addition, event systems built with ScriptableObjects are extremely powerful, and I can't wait to see how else I can use them in the future.                       
           </div>
-          <div className="slightlylargertext project-flexitem">
+          <div className="project-flexitemtext project-flexitem">
             &emsp; In the future, I intend to add more content and a short tutorial, then put the game on the Play Store. I don't believe it is up to the level of quality I expect from myself as it is, but for the time being I am focusing on other projects.
             <br/><br/>
           </div>
@@ -50,7 +50,7 @@ const ProjectsPage = props => (
         <p className="bigtext rightalign">Kermode Kanji</p>
         <hr></hr>
         <div className="project-flexcontainer">
-          <div className="slightlylargertext project-flexitem">
+          <div className="project-flexitemtext project-flexitem">
             &emsp; During my sophomore year at university, I wanted to prorcrastinate studying Japanese, so I decided to make an application to help me study Japanese.
             I know that sounds silly, but hey. I'm only human.
             <br/><br/>
@@ -59,14 +59,14 @@ const ProjectsPage = props => (
           </div>
           <div className="project-flexitem imgborder"><Img fluid={props.data.kKanjiOne.childImageSharp.fluid} /></div>
           <div className="project-flexitem imgborder"><Img fluid={props.data.kKanjiTwo.childImageSharp.fluid} /></div>
-          <div className="slightlylargertext project-flexitem">
+          <div className="project-flexitemtext project-flexitem">
             &emsp; I ended up learning a lot about the android api and material design. Particularly, floating action buttons and animating UI elements. I've come to really like designs using floating action buttons, especially when they are properly labeled and nicely animated.
             I feel they make designs much cleaner and intuitive overall. 
             <br/><br/>
             &emsp; I would have liked to have integrated a kanji OCR library to automatically grade whether or not users drew kanji correctly, but I felt that was a great deal of difficulty for not a great improvement in usability. 
             What I did want to do however, was implement a form of spaced repetition to help me learn, but I never got around to it.
           </div>
-          <div className="slightlylargertext project-flexitem">
+          <div className="project-flexitemtext project-flexitem">
             &emsp; This app is currently on the Play Store, but to be honest, I'm not particularly proud of it. I learned a lot, but I know I can do better. If you are looking to practice kanji, I recommend an app called Kanji Study, which has been lovely for my personal use.
           </div>
           <div className="project-flexitem imgborder"><Img fluid={props.data.kKanjiThree.childImageSharp.fluid} /></div>
