@@ -230,7 +230,8 @@ hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
             width: 96%;
         }
         li{
-    
+            
+            
             margin: 0;
             flex-grow: 1;
       
@@ -238,6 +239,7 @@ hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
             min-width: 100%;
             @media (min-width: 768px) {
                 min-width: 50%;
+                
             }
             
         }
@@ -246,11 +248,11 @@ hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
         }
         .renderImg {
             
-            height:100%;
+            height: 100%;
             width: 100%;
             object-fit: cover;
             vertical-align: bottom;
-            border-radius: 5px;
+            
     
         }
     }

@@ -14,12 +14,12 @@ const ModelingPage = props => (
       <div className="content-pane">
         <div className="models-pane">
           <ul>
-            <li><Img className="renderImg" fluid={props.data.cozyhouse.childImageSharp.fluid} /></li>
-            <li><Img className="renderImg" fluid={props.data.earring.childImageSharp.fluid} /></li>
-            <li><Img className="renderImg" fluid={props.data.squareislands.childImageSharp.fluid} /></li>
-            <li><Img className="renderImg" fluid={props.data.plane3.childImageSharp.fluid} /></li>
-            <li><Img className="renderImg" fluid={props.data.plane2.childImageSharp.fluid} /></li>
-            <li><Img className="renderImg" fluid={props.data.plane1.childImageSharp.fluid} /></li>
+            <li><div className="renderImg" ><Img fluid={props.data.cozyhouse.childImageSharp.fluid} /></div></li>
+            <li><div className="renderImg" ><Img fluid={props.data.earring.childImageSharp.fluid} /></div></li>
+            <li><div className="renderImg" ><Img fluid={props.data.squareislands.childImageSharp.fluid} /></div></li>
+            <li><div className="renderImg" ><Img fluid={props.data.plane3.childImageSharp.fluid} /></div></li>
+            <li><div className="renderImg" ><Img fluid={props.data.plane2.childImageSharp.fluid} /></div></li>
+            <li><div className="renderImg" ><Img fluid={props.data.plane1.childImageSharp.fluid} /></div></li>
             <li></li>
           </ul>
         </div>
@@ -36,7 +36,7 @@ export default ModelingPage
 export const fluidImageRender = graphql`
   fragment fluidImageRender on File {
     childImageSharp {
-      fluid(maxWidth: 400) {
+      fluid(maxWidth: 800) {
         ...GatsbyImageSharpFluid
       }
     }
