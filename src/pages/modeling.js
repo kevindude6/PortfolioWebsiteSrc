@@ -36,7 +36,7 @@ export default ModelingPage
 export const fluidImageRender = graphql`
   fragment fluidImageRender on File {
     childImageSharp {
-      fluid(maxWidth: 800) {
+      fluid(maxWidth: 800, quality:90) {
         ...GatsbyImageSharpFluid
       }
     }

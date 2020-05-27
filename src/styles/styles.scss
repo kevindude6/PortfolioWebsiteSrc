@@ -221,8 +221,8 @@ hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
             padding-inline-start: 0;
             
             padding: 2%;
-            display: flex;
-            flex-wrap: wrap;
+            
+            
             list-style: none;
             justify-content: center;
             
@@ -233,28 +233,14 @@ hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
             
             
             margin: 0;
-            flex-grow: 1;
-      
             
-            min-width: 100%;
-            @media (min-width: 768px) {
-                min-width: 50%;
-                
-            }
+            width: 100%;
             
         }
         li:last-child{
             flex-grow: 10;
         }
-        .renderImg {
-            
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            vertical-align: bottom;
-            
-    
-        }
+       
     }
 }
 
