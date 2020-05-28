@@ -8,9 +8,10 @@ import "../styles/styles.scss"
 
 
 import BottomNavbar from "../components/bottomnavbar"
-
+import MetaData from "../components/metadata"
 const ResumePage = () => (
   <div>
+    <MetaData/>
     <div id="wrapper">
       <BottomNavbar activepage="Resume"></BottomNavbar>
       <div className="content-pane">

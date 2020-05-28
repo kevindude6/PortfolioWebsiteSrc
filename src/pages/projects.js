@@ -6,9 +6,11 @@ import React from "react"
 import BottomNavbar from "../components/bottomnavbar"
 import {graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import MetaData from "../components/metadata"
 
 const ProjectsPage = props => (
   <div>
+    <MetaData/>
     <div id="wrapper">
       <BottomNavbar activepage="Projects"></BottomNavbar>
       <div className="content-pane">
