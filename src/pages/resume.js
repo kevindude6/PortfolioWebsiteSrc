@@ -28,6 +28,7 @@ const ResumePage = () => (
           <li>9 years Java experience, proficient in C++, C, C#</li>
           <li>Extensive Unity experience</li>
           <li>Plentiful Android development experience</li>
+          <li>HTML, CSS, Javascript, React</li>
           <li>Blender experience, including mobile optimized modeling</li>
           <li>Windows API experience</li>
           <li>Intermediate speaker of Japanese</li>
