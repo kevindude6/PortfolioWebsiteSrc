@@ -18,7 +18,8 @@ const ResumePage = () => (
         <p className="bigtext leftalign">Summary</p>
         <hr></hr>
         <ul className="normaltext leftalign">
-          <li>Software Engineer at HummingHeads, Inc.</li>
+          <li>Software Engineer open to opportunities</li>
+          <li>Driven to learn and practice modern software development technologies</li>
           <li>B.S. Computer Science, University of Maryland College Park</li>
           <li>B.A. Japanese, University of Maryland College Park</li>
         </ul>
@@ -26,12 +27,16 @@ const ResumePage = () => (
         <p className="bigtext leftalign">Skills</p>
         <hr></hr>
         <ul className="normaltext leftalign">
-          <li>9 years Java experience, proficient in C++, C, C#</li>
+          <li>Plethora of C experience</li>
+          <li>Proficiency in C++, C#, Java</li>
+          <li>Extensive Python experience</li>
           <li>Extensive Unity experience</li>
           <li>Plentiful Android development experience</li>
-          <li>HTML, CSS, Javascript, React</li>
+          <li>React, Javascript, HTML, CSS experience</li>
+          <li>Skilled debugger of old and archaic code</li>
           <li>Blender experience, including mobile optimized modeling</li>
           <li>Windows API experience</li>
+          <li>Strong communication skills</li>
           <li>Intermediate speaker of Japanese</li>
           <li>Certified SolidWorks Associate</li>
           <li>Basic electronics experience</li>
@@ -43,10 +48,34 @@ const ResumePage = () => (
         <p className="bigtext leftalign">Experience</p>
         <hr></hr>
         <ul className="normaltext leftalign">
-          <li>Software Engineer at HummingHeads, Inc. (ハミングヘッズ) (09/19 -present)</li>
-          <li>Software Development Intern at JF Taylor, Inc.(Summer 2016, Summer 2017)</li>
-          <li>Supercomputing Internship Program (Summer 2014) at PAX Naval Base</li>
+          <li>Software Engineer at HummingHeads, Inc. (ハミングヘッズ) (09/19 - 03/21)</li>
+          <ul className="smalltext leftalign">
+            <li>Supported enterprise security product through investigating, debugging, and modifying C and C++ code. Used Windows API extensively</li>
+            <li>Created and presented documents regarding investigation results and bug-fix strategies</li>
+          </ul>
           <li>Undergraduate Technology Apprenticeship Program (2018 - 2019)</li>
+          <ul className="smalltext leftalign">
+            <li>Created website for Japanese department containing multimedia for Japanese study and practice</li>
+            <li>Digitally designed several posters, fliers, and pamphlets for the Arts and Humanities Department</li>
+          </ul>
+          <li>Software Development Intern at JF Taylor, Inc.(Summer 2016, Summer 2017)</li>
+          <ul className="smalltext leftalign">
+            <li>Supported development of support applications for Navy aircraft technicians</li>
+          </ul>
+          <li>Supercomputing Internship Program (Summer 2014) at PAX Naval Base</li>
+          <li>Independent Game Development</li>
+          <ul className="smalltext leftalign">
+            <li>Created prototypes in Unity using C#</li>
+            <li>Used HLSL with Unity to write a custom geometry shader</li>
+            <li>Created a voxel engine using C# with XNA and OpenGL (2015)</li>
+            <li>Created and painted models using Blender and Substance Painter</li>
+          </ul>
+          <li>Personal Projects</li>
+          <ul className="smalltext leftalign">
+            <li>Android app for money management using Kotlin, Room, Navigation</li>
+            <li>Personal website using React and Gatsby</li>
+            <li>Android app for kanji study</li>
+          </ul>
         </ul>
         
         <p className="bigtext leftalign">Education</p>

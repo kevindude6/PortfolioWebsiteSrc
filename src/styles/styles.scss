@@ -154,6 +154,9 @@ hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
     .smalltext{
         font-size: 1rem;
         font-weight: 300;
+        @media (min-width: 768px) {
+            font-size:1.5rem;
+        }
     }
     .leftalign{text-align: left;}
     .centeralign{text-align: center;}
